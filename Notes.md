@@ -4,3 +4,6 @@
   * containers can be run on any system which has the docker running without worrying about the environment docker is installed.
 
 * Tradition approach to install a software allows us to have one version and might not allow us to have multiple instances of the application.
+
+* Containers are like virtual machine but they are light weight. They run on the same os and hence light weight
+* Whenever, docker image is built and pushed , it goes to the public repository but that can be changed. Publishing a repository makes it available for pulling the image from anywhere, so that the decentralized server can leverage a single location for images.
