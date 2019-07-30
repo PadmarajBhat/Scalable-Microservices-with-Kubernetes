@@ -7,3 +7,5 @@
 
 * Containers are like virtual machine but they are light weight. They run on the same os and hence light weight
 * Whenever, docker image is built and pushed , it goes to the public repository but that can be changed. Publishing a repository makes it available for pulling the image from anywhere, so that the decentralized server can leverage a single location for images.
+* Docker does the containerization through the dockerfile. This file contains info like the files required for the application and also the entry point among them.
+* Docker run command not only runs the application from the entry point but also downloads/pulls it from the central repository.
