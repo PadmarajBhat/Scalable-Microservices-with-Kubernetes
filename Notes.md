@@ -17,3 +17,6 @@
 * Docker run command not only runs the application from the entry point but also downloads/pulls it from the central repository.
 * Some documentation read at : https://docs.docker.com/get-started/
 * like class and object we have docker image (stateless) and containers (with state). Images are created through docker build. It is images that are pushed to repository and pulled from it. When we run the images we have containers.
+
+* Swarm:
+ * Swarm is an approach to have load balancing of application. swarm manager controls swarm worker node
