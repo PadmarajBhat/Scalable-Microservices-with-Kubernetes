@@ -19,4 +19,5 @@
 * like class and object we have docker image (stateless) and containers (with state). Images are created through docker build. It is images that are pushed to repository and pulled from it. When we run the images we have containers.
 
 * Swarm:
- * Swarm is an approach to have load balancing of application. swarm manager controls swarm worker node
+  * Swarm is an approach to have load balancing of application. swarm manager controls swarm worker node
+  * interesting read https://thenewstack.io/kubernetes-vs-docker-swarm-whats-the-difference/
