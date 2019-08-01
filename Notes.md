@@ -26,3 +26,6 @@
 * Moving towards serverless computing in Google Cloud:
   * https://cloud.google.com/functions/use-cases/ - serverless has 3 types option in google cloud. This is talks about function. Majorly for backend applications
   * https://cloud.google.com/appengine/- serverless web and backend application 
+
+
+ * Diving into parallel computing: https://www.machinelearningplus.com/python/parallel-processing-python/
