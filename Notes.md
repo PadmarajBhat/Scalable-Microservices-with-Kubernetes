@@ -21,6 +21,7 @@
 * Swarm:
   * Swarm is an approach to have load balancing of application. swarm manager controls swarm worker node
   * interesting read https://thenewstack.io/kubernetes-vs-docker-swarm-whats-the-difference/
+  * https://hackernoon.com/kubernetes-vs-docker-swarm-a-comprehensive-comparison-73058543771e - indicates docker swarm is better in couple of aspects like number of supported nodes and auto load balancing of the traffic between containers withing cluster.
 
 * Moving towards serverless computing in Google Cloud:
   * https://cloud.google.com/functions/use-cases/ - serverless has 3 types option in google cloud. This is talks about function. Majorly for backend applications
