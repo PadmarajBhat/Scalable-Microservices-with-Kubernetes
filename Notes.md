@@ -30,3 +30,4 @@
 
 
  * Diving into parallel computing: https://www.machinelearningplus.com/python/parallel-processing-python/
+    * https://docs.python.org/2/library/multiprocessing.html#module-multiprocessing : I guess the process/thread creation is abstracted in ray. This api provides the low level of multiprocessing like start join and pass objects between processes.  
