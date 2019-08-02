@@ -27,7 +27,9 @@
   * https://cloud.google.com/functions/use-cases/ - serverless has 3 types option in google cloud. This is talks about function. Majorly for backend applications
   * https://cloud.google.com/appengine/- serverless web and backend application 
   * Nice article on google run: https://blog.iron.io/google-cloud-run-alternatives-and-review/
+  
 
 
  * Diving into parallel computing: https://www.machinelearningplus.com/python/parallel-processing-python/
     * https://docs.python.org/2/library/multiprocessing.html#module-multiprocessing : I guess the process/thread creation is abstracted in ray. This api provides the low level of multiprocessing like start join and pass objects between processes.  
+    * Ray is not for windows operating system : https://stackoverflow.com/questions/54588066/cannot-install-ray
