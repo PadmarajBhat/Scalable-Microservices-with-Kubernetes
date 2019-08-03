@@ -35,3 +35,7 @@
     * Ray is not for windows operating system : https://stackoverflow.com/questions/54588066/cannot-install-ray
     
   * https://djangobook.com/scaling-django/ - django scaling explained in diagram
+  
+ * another paradigm of coding/ concurrent execution
+     * https://www.geeksforgeeks.org/multithreading-python-set-1/
+       * multithreading provides capability of the concurrent execution of the set of codes within the scope of process.
