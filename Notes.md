@@ -34,7 +34,11 @@
     * https://docs.python.org/2/library/multiprocessing.html#module-multiprocessing : I guess the process/thread creation is abstracted in ray. This api provides the low level of multiprocessing like start join and pass objects between processes.  
     * Ray is not for windows operating system : https://stackoverflow.com/questions/54588066/cannot-install-ray
     
-  * https://djangobook.com/scaling-django/ - django scaling explained in diagram
+    * https://djangobook.com/scaling-django/ - django scaling explained in diagram
+    * Nice article of imap, starmap : https://medium.com/apteo/multi-processing-in-python-ee0ce73a459b
+      * imap : returns an iterator instead to complete sequences; saves memory
+      * starmap: takes multiple argument unlike map and imap.
+        * here syntax indicates that it is one argument to starmap but each element in the list can be a list of arguments to calling function [list of list]. Outer is same as the arguments to map and imap but inner list is arguments to map functions.
   
  * another paradigm of coding/ concurrent execution
      * https://www.geeksforgeeks.org/multithreading-python-set-1/
