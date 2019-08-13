@@ -14,6 +14,8 @@
    # Run app.py when the container launches
    CMD ["python", "app.py"]
    ```
+    * docker file has python (or program run time) environment settings and requirements.txt file has list of "packages" to be installed for python program to use in its code.
+    
 * Docker run command not only runs the application from the entry point but also downloads/pulls it from the central repository.
 * Some documentation read at : https://docs.docker.com/get-started/
 * like class and object we have docker image (stateless) and containers (with state). Images are created through docker build. It is images that are pushed to repository and pulled from it. When we run the images we have containers.
@@ -25,8 +27,10 @@
 
 * Moving towards serverless computing in Google Cloud:
   * https://cloud.google.com/functions/use-cases/ - serverless has 3 types option in google cloud. This is talks about function. Majorly for backend applications
+    * can be triggered through http request (post call to a http link) or event driven (sort of push notification processing)
   * https://cloud.google.com/appengine/- serverless web and backend application 
-  * Nice article on google run: https://blog.iron.io/google-cloud-run-alternatives-and-review/
+  * Nice article on google run: https://blog.iron.io/google-cloud-run-alternatives-and-review/ - mainly for containerized application
+  
   
 
 
