@@ -30,7 +30,7 @@
     * can be triggered through http request (post call to a http link) or event driven (sort of push notification processing)
   * https://cloud.google.com/appengine/- serverless web and backend application 
   * Nice article on google run: https://blog.iron.io/google-cloud-run-alternatives-and-review/ - mainly for containerized application
-  
+  * In all the serverless case, the application which would run on serverless scenario should stateless. That means there should not be db or files inside the container. It should saved in cloud storage and db should connected to the program. statelessness is a mandatory one.
   
 
 
